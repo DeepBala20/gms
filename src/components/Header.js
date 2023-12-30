@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
-    <header className='bg-teal-900'>
+    <header className='bg-teal-900 sticky top-0'>
       <div className='flex justify-between items-center mx-auto px-10 py-3'>
       <Link to='/'>
       <h1 className='flex flex-wrap font-bold items-baseline'>
