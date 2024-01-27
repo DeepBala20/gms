@@ -11,15 +11,16 @@ export default function Header() {
         <span className='text-slate-100 text-2xl'> Grocery</span>
       </h1>
       </Link>
-      <ul className='flex gap-5 justify-between'>
+      <ul className='flex gap-8 justify-between'>
         <Link to='/'>
           <li className='hover:underline text-slate-100'>Home</li>
         </Link>
         <Link to='/about'>
           <li className='hover:underline text-slate-100'>About</li>
         </Link>
-      </ul>
-      <ul>
+        <Link to='/sign-in'>
+          <li className='hover:underline text-slate-100'>Sign-in</li>
+        </Link>
         <Link to='/profile'>
           <li className='hover:underline text-slate-100'>Profile</li>
         </Link>
