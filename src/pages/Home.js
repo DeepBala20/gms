@@ -33,11 +33,25 @@ export default function Home() {
 
         <div className='mt-20 text-center  w-full text-6xl font-bold text-teal-800 '>Brands</div>
         <div className='flex mt-10 justify-evenly'>
-          <div className='bg-slate-400 border w-1/6'><img style={{width:"100%",height:"100%"}} src='assets/amul.jpg' /></div>
-          <div className='bg-slate-400 border w-1/6' ><img style={{width:"100%",height:"100%"}} src='assets/himalaya.jpg' />  </div>
-          <div className='bg-slate-400 border w-1/6' ><img style={{width:"100%",height:"100%"}} src='assets/lux.jpg' /> </div>
-          <div className='bg-slate-400 border w-1/6' ><img style={{width:"100%",height:"100%"}} src='assets/parle.jpg' /></div>
-          <div className='bg-slate-400 border w-1/6' ><img style={{width:"100%",height:"100%"}} src='assets/nestle.jpg' /></div>
+          <div className='bg-slate-400 border w-1/6'><img style={{width:"100%",height:"100%"}} src='assets/amul.jpg' /><br/>AMUL</div>
+          <div className='bg-slate-400 border w-1/6' ><img style={{width:"100%",height:"100%"}} src='assets/himalaya.jpg' /><br/>HIMALAYA</div>
+          <div className='bg-slate-400 border w-1/6' ><img style={{width:"100%",height:"100%"}} src='assets/lux.jpg' /><br/>LUX </div>
+          <div className='bg-slate-400 border w-1/6' ><img style={{width:"100%",height:"100%"}} src='assets/parle.jpg' /><br/>PARLE</div>
+          <div className='bg-slate-400 border w-1/6' ><img style={{width:"100%",height:"100%"}} src='assets/nestle.jpg' /><br/>NESTLE</div>
+        </div>
+
+        <div className='mt-20 text-center text-6xl font-bold text-teal-800 '>Guarantees</div>
+        <div className='flex mt-10 justify-evenly'>
+          <div className=' w-1/8'><img  src='assets/quality.jpg' /><br/>QUALITY<br/>You Can Trust</div>
+          <div className=' w-1/8' ><img  src='assets/dilivery.jpg' /><br/>FREE<br/>Delivery  </div>
+          <div className=' w-1/8' ><img  src='assets/time.jpg' /><br/>ON TIME<br/>Guarantee </div>
+          <div className=' w-1/8' ><img  src='assets/return.jpg' /><br/>NO QUESTIONS ASKED<br/>Return Policy</div>
+        </div>
+
+        <div>
+          <div className='mt-20 text-center text-6xl font-bold text-teal-800 bg-slate-300'>
+              Happy Shoping
+          </div>
         </div>
 
     </div> 
